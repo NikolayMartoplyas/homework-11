@@ -13,7 +13,6 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -26,12 +25,6 @@
             <artifactId>lombok</artifactId>
             <version>1.18.32</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.6.28</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
@@ -88,12 +81,13 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-
-
                 </executions>
             </plugin>
 
         </plugins>
     </build>
+
+
+
 
 </project>
